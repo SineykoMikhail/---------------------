@@ -22,8 +22,5 @@
 // console.log("Элементы после:" + array1);
 // console.log("Удален этот элемент:" + shifted);
 
-const array1 = ["js", "css", "jq"];
-console.log("Элементы до:" + array1);
-const popped = array1.pop();
-console.log("Элементы после:" + array1);
-console.log("Удален этот элемент:" + popped);
+const array1 = [1, 2, 3, 4, 5];
+console.log(array1.slice(1));
