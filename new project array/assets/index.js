@@ -21,3 +21,9 @@
 // const shifted = array1.shift();
 // console.log("Элементы после:" + array1);
 // console.log("Удален этот элемент:" + shifted);
+
+const array1 = ["js", "css", "jq"];
+console.log("Элементы до:" + array1);
+const popped = array1.pop();
+console.log("Элементы после:" + array1);
+console.log("Удален этот элемент:" + popped);
